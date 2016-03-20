@@ -26,8 +26,8 @@ Note if you don't run php -S in the directory, it won't work.
 
 ## Wonderfulness
  * database: that's about all the code you need. no mapping, no annotations.
- ** $user = Capsule::table('users')->where('id', 1)->get();
- ** $users = User::all();
+  * $user = Capsule::table('users')->where('id', 1)->get();
+  * $users = User::all();
  * support: they are all amazing. Str::plural, str_limit, array_get, last, array_pull, array_set, with
  * Collections, Fluent: [http://www.gufran.me/post/laravel-illuminate-support-package-introduction/]
  * validation: 'email' => 'required|email|unique:users' <-- yep, checks db table too!
