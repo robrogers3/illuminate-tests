@@ -22,7 +22,10 @@ Note if you don't run php -S in the directory, it won't work.
  * create a db called illuminate
  * add a table called users (id, name, ...)
  * add a couple users
+
+#### Notes
  * sql included you can run, base dir.
+ * update database/index.php to use your db connection params.
 
 ## Wonderfulness
  * database: that's about all the code you need. no mapping, no annotations.
@@ -36,6 +39,14 @@ Note if you don't run php -S in the directory, it won't work.
 
 You'll see that this composer.json is exactly like our current one plus the illimuinate packages.
 I'll test this one abit with our code. It be great if you do too!
+
+## Most Important
+
+I forked 2 illuminate packages so composer would build. They need to be added to crowdstar git.
+They are:
+ * [https://github.com/robrogers3/translation.git]
+ * [https://github.com/robrogers3/validation.git]
+
 
 
 
