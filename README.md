@@ -37,6 +37,14 @@ Note if you don't run php -S in the directory, it won't work.
 You'll see that this composer.json is exactly like our current one plus the illimuinate packages.
 I'll test this one abit with our code. It be great if you do too!
 
+## Most Important
+
+I forked 2 illuminate packages so composer would build. They need to be added to crowdstar git.
+They are:
+ * [https://github.com/robrogers3/translation.git]
+ * [https://github.com/robrogers3/validation.git]
+
+
 
 
 
