@@ -22,7 +22,10 @@ Note if you don't run php -S in the directory, it won't work.
  * create a db called illuminate
  * add a table called users (id, name, ...)
  * add a couple users
+
+#### Notes
  * sql included you can run, base dir.
+ * update database/index.php to use your db connection params.
 
 ## Wonderfulness
  * database: that's about all the code you need. no mapping, no annotations.
